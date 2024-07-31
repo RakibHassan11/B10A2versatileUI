@@ -209,7 +209,6 @@ h1{
 .run-container img{
     border-radius: 18px;
     width: 100%;
-    height: 100%;
 }
 /* BMI chart */
 .bmi-chart th{
@@ -349,7 +348,7 @@ input, select{
     line-height: 120%; 
 }
 /* footer */
-.footer-section, .bmi-calculator p{
+.footer-section p, .bmi-calculator p{
     align-self: stretch;
     color: rgba(255, 255, 255, 0.50);
     font-size: 14px;
@@ -359,7 +358,6 @@ input, select{
 }
 .container-01{
     display: flex;
-    width: 443px;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
@@ -395,9 +393,10 @@ input, select{
         letter-spacing: 0.3px;
 }
 .footer-section{
-    display:flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+    margin-top: 20px;
     gap: 102px;
 }
 /* Client  */
@@ -472,14 +471,14 @@ line-height: 120%; /* 24px */
     .image-row{
         display: grid;
     }
-    .habit p, .run-container p, .your-destination p, .member p{
+    .habit p, .run-container p, .your-destination p, .member p, .banner-text p{
         text-align: left;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: rgba(255, 255, 255, 0.50);
     }
     .run-container{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr ;
     }
     .bmi-container{
         display: flex;
@@ -520,8 +519,29 @@ line-height: 120%; /* 24px */
     .member h1{
         text-align: left;
     }
-    .member h4{
+    .member h4 ,.footer-section h4{
         font-size: 0.9rem;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container-01 p, .footer-section li{
+        width: 20rem;
+        text-align: left;
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.50);
+    }
+    .run-container img{
+        border-radius: 18px;
+        width: 92%;
+    }
+    .row-1, .row-2{
+        display: flex;
+        flex-direction: column;
     }
       
 }
