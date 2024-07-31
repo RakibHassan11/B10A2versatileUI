@@ -458,7 +458,7 @@ line-height: 120%; /* 24px */
         align-items: flex-start;
         gap: 38px;
     }
-    h1{
+    h1,h2{
         font-size: 3rem;
         font-style: normal;
         font-weight: 800;
@@ -472,8 +472,8 @@ line-height: 120%; /* 24px */
     .image-row{
         display: grid;
     }
-    .habit, .run-container p{
-        text-align: center;
+    .habit p, .run-container p, .your-destination p, .member p{
+        text-align: left;
         font-size: 0.9rem;
         color: rgba(255, 255, 255, 0.50);
     }
@@ -493,9 +493,35 @@ line-height: 120%; /* 24px */
       .bmi-input {
         gap: 5rem; 
       }
-      .your-destination{
+      .your-destination h4{
+        font-weight: 400;
+        font-size: 0.8rem;
+      }
+      .your-destination p{
+        font-weight: 300;
+        font-size: 0.8rem;
+      }
+      .member {
         display: flex;
         flex-direction: column;
+        gap: 30px;
       }
+      .member-row{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .member img{
+        width: 20rem;
+        height: 10rem;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+    .member h1{
+        text-align: left;
+    }
+    .member h4{
+        font-size: 0.9rem;
+    }
       
 }
