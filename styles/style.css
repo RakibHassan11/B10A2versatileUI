@@ -20,7 +20,7 @@ h3{
     font-size: 36px;
     font-style: italic;
     font-weight: 800;
-    line-height: 120%; /* 43.2px */
+    line-height: 120%; 
 }
 .span{
     margin-top: -5px;
@@ -36,9 +36,8 @@ p{
     text-align: left;
     color: rgba(255, 255, 255, 0.50);
     font-weight: 400;
-    line-height: 120%; /* 21.6px */
+    line-height: 120%; 
 }
-/* Gradient Background */
 /* Navbar */
 .nav-bar{
     display: flex;
@@ -60,7 +59,7 @@ p{
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
-    line-height: 20px; /* 122.222% */
+    line-height: 20px; 
 }
 .btn-2{
     width: 224px;
@@ -72,7 +71,7 @@ p{
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
-    line-height: 22px; /* 122.222% */
+    line-height: 22px;
 }
 .get-body{
     display: flex;
@@ -94,7 +93,7 @@ h1{
     font-size: 78px;
     font-style: normal;
     font-weight: 900;
-    line-height: 120%; /* 93.6px */
+    line-height: 120%; 
 }
 .banner-text, .member p{
     color: rgba(255, 255, 255, 0.50);
@@ -102,7 +101,7 @@ h1{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px; 
     letter-spacing: 0.5px;
     }
 .banner-text span{
@@ -202,9 +201,11 @@ h1{
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     background: #222;
+    padding: 20px;
 }
 .run-container img{
     border-radius: 18px;
+    height: 100%;
     width: 100%;
     filter: brightness(80%);
 }
@@ -214,7 +215,7 @@ h1{
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 120%; /* 19.2px */
+    line-height: 120%; 
     border:1px solid rgba(255, 255, 255, 0.10);
     padding: 15px;
     text-align: left;
@@ -224,7 +225,7 @@ h1{
     font-size: 28px;
     font-style: normal;
     font-weight: 800;
-    line-height: 120%; /* 33.6px */
+    line-height: 120%;
 }
 .bmi-chart td{
     color: rgba(255, 255, 255, 0.50);
@@ -232,7 +233,7 @@ h1{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 16.8px */
+    line-height: 120%; 
     border:1px solid rgba(255, 255, 255, 0.10);
     padding: 15px;
     
@@ -281,7 +282,7 @@ input, select{
     border: none;
     font-size: 18px;
     font-weight: 600;
-    line-height: 20px; /* 122.222% */
+    line-height: 20px;
 }
 .bmi-container{
     display: grid;
@@ -415,7 +416,7 @@ input, select{
 color: #FFF;
 font-size: 48px;
 font-weight: 900;
-line-height: 120%; /* 57.6px */
+line-height: 120%; 
 }
 .member h4{
     color: #FFF;
@@ -423,7 +424,7 @@ font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 900;
-line-height: 120%; /* 24px */
+line-height: 120%; 
     }
 .member{
     display: grid;
@@ -539,7 +540,7 @@ line-height: 120%; /* 24px */
     }
     .run-container img{
         border-radius: 18px;
-        width: 92%;
+        width: 100%;
     }
     .row-1, .row-2{
         display: flex;
