@@ -7,6 +7,7 @@ body{
 /* Default Styles */
 *{
     margin: 0;
+    padding: 0;
     
 }
 .container{
@@ -210,6 +211,12 @@ h1{
     filter: brightness(80%);
 }
 /* BMI chart */
+.bmi-chart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5rem;
+}
 .bmi-chart th{
     color: #FFF;
     font-size: 16px;
@@ -545,6 +552,9 @@ line-height: 120%;
     .row-1, .row-2{
         display: flex;
         flex-direction: column;
+    }
+    .bmi-chart{
+        margin-right: 0;
     }
       
 }
